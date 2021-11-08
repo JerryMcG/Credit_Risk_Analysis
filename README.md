@@ -10,8 +10,8 @@ Balanced Accuracy Score: 0.53
 Precision: 0.99
 Recall: 0.37
 
-<img_src = 'images/RandomOverAccuracy.jpg'/>
-<img_src = 'images/RandomOverClass.jpg'/>
+<img src = 'images/RandomOverAccuracy.jpg'/>
+<img src = 'images/RandomOverClass.jpg'/>
 
 * SMOTE
 Balanced Accuracy Score: 0.53
