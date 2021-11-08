@@ -19,7 +19,7 @@ The purpose of this analysis is to compare different models and determine which 
 3. Recall: 0.41
 
 <img src = 'images/SMOTEAccuracy.jpg'/>
-<img src = 'images/SMOTEClass.jpg'/>
+<img src = 'images/SMOTEclass.jpg'/>
 
 * ClusterCentroids
 1. Balanced Accuracy Score: 0.54
@@ -55,6 +55,6 @@ The purpose of this analysis is to compare different models and determine which 
 
 ## Summary:
 
-In general the random undersampling provided by BalancedRandomForestClassifier and EasyEnsembleClassifier worked a better in terms of a higher accuracy score and higher recall when compared with the different sampling models. The precision of all is quite high, which is a good thing due to the type of predictions we are making. We want to ensure that we are precise when determining who is a good candidate for a loan/credit. 
+In general the random undersampling provided by BalancedRandomForestClassifier and EasyEnsembleClassifier worked a better in terms of a higher accuracy score and higher recall when compared with the different sampling models. The precision is consistent throughout all models, which indicates that most of the data is classified as low risk. This makes me curious about the data quality and if the data is more skewed to represent too many low risk applications. Or potentially, the risk tolerance is quite low in this data set. 
 
-As a result, I would recommend either of the Ensemble models but with a word of caution since the Balanced Accuracy Score is not particularly high with a result of 0.61 for both models. 
+As a result, I wouldn't recommend any of these algos, classifiers or models to use as I believe the data needs to be reviewed further and determined if there is an even balance between all representative data types. 
